@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LifeGuard AI - Emergency Ambulance Assistant</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🚑 LifeGuard AI</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="ambulance.html">Ambulance</a>
+        <a href="hospitals.html">Hospitals</a>
+        <a href="first-aid.html">First Aid</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+
+<h1>AI Emergency Ambulance Assistant</h1>
+
+<p>
+Fast emergency response with AI-powered ambulance booking,
+nearby hospital finder, and first-aid guidance.
+</p>
+
+<button class="btn" onclick="window.location='ambulance.html'">
+🚑 Request Ambulance
+</button>
+
+<button class="btn2" onclick="window.location='hospitals.html'">
+🏥 Find Hospital
+</button>
+
+<br><br>
+
+<button class="sos" onclick="alert('🚨 SOS Alert Sent Successfully!')">
+🚨 SOS EMERGENCY
+</button>
+
+</section>
+
+<section class="features">
+
+<div class="card">
+<h2>🚑 Ambulance</h2>
+<p>Book an ambulance instantly during emergencies.</p>
+</div>
+
+<div class="card">
+<h2>🏥 Hospitals</h2>
+<p>Find nearby hospitals with emergency services.</p>
+</div>
+
+<div class="card">
+<h2>🩹 First Aid</h2>
+<p>Get immediate first-aid instructions while waiting.</p>
+</div>
+
+<div class="card">
+<h2>🤖 AI Chat</h2>
+
+<input id="question" type="text" placeholder="Ask AI">
+
+<br><br>
+
+<button onclick="askAI()">Ask</button>
+
+<p id="answer"></p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 LifeGuard AI | Emergency Healthcare Platform</p>
+
+</footer>
